@@ -1,0 +1,14 @@
+
+Database Name: ms_api
+
+Tables List
+
+users (id,name,email_id,password,created_at);
+
+
+subscriptions (id,user_id,movie_id,expiry_date,created_at)
+
+
+
+
+

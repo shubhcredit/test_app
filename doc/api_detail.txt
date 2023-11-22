@@ -1,0 +1,35 @@
+1 - POST, http://127.0.0.1/test_app/api/login.php  // user login
+    Form Request :: email_id, password
+
+2 - POST, http://127.0.0.1/test_app/api/register.php  // user registration
+    Form Request ::name, email_id, password
+
+3-  POST, http://127.0.0.1/test_app/api/change_password.php  // change password
+    Form Request ::user_id,old_password, new_password
+
+
+4-  POST, http://127.0.0.1/test_app/api/forgot_password.php  // forgot password
+    Form Request :: email_id, new_password
+
+
+5-  POST, http://127.0.0.1/test_app/api/update_profile.php  // update profile
+    Form Request ::user_id, name, email_id
+
+
+
+6- POST ,http://127.0.0.1/test_app/api/subscription/subscribe_movie.php  // subscribe movie
+    Form Request ::user_id,movie_id,expiry_date
+
+7- POST ,http://127.0.0.1/test_app/api/subscription/unsubscribe_movie.php  // unsubscribe movie
+    Form Request ::subscription_id
+
+
+
+8- POST , http://127.0.0.1/test_app/api/subscription/view_user_subscribe_movie.php // list perticular user subscribe movie
+    Form Request ::user_id
+
+9- GET ,http://127.0.0.1/test_app/api/subscription/view_all_subscription.php  // view subscription list
+
+
+
+
